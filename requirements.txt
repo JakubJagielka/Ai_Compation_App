@@ -1,0 +1,56 @@
+# AI and Machine Learning
+google-generativeai>=0.8.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Audio Processing and Speech
+edge-tts>=6.1.0
+librosa>=0.10.0
+sounddevice>=0.4.6
+soundfile>=0.12.1
+pyaudio>=0.2.11
+webrtcvad>=2.0.10
+halo>=0.0.31
+
+# GUI Framework (PySide6/Qt)
+PySide6>=6.6.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Audio Control (Windows specific)
+pycaw>=20220416
+
+# Database and Storage
+chromadb>=0.4.0
+
+# Cryptography
+pycryptodome>=3.19.0
+
+# Web and Network
+requests>=2.31.0
+
+# Text Processing
+regex>=2023.0.0
+
+# System Integration
+pyperclip>=1.8.2
+
+# Speech Recognition (Whisper dependencies)
+faster-whisper>=0.9.0
+silero-vad>=4.0.0
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Additional Speech Recognition Libraries
+openai-whisper>=20231117
+transformers>=4.35.0
+
+# Live2D Support (if available via pip, otherwise manual installation)
+# Live2D  # This may need to be installed manually or from a specific source
+
+# Development and Utilities
+concurrent-futures>=3.1.1
+
+# Standard library modules that might need explicit versions in some environments
+typing-extensions>=4.8.0

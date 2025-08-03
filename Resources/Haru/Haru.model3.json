@@ -1,0 +1,172 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Haru.moc3",
+		"Textures": [
+			"Haru.2048/texture_00.png",
+			"Haru.2048/texture_01.png"
+		],
+		"Physics": "Haru.physics3.json",
+		"Pose": "Haru.pose3.json",
+		"DisplayInfo": "Haru.cdi3.json",
+		
+		"Motions": {
+			"Idle": [
+				{
+					"Name": "casual",
+					"File": "motions/haru_g_idle.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"Name": "hands_crossed",
+					"File": "motions/haru_g_m15.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"Name": "agreeing",
+					"File": "motions/haru_g_m01.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+
+				{
+					"Name": "worried",
+					"File": "motions/haru_g_m03.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"Name": "disturbed",
+					"File": "motions/haru_g_m04.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"Name": "apology",
+					"File": "motions/haru_g_m10.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"Name": "disagreeing",
+					"File": "motions/haru_g_m11.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"Name": "misunderstanding",
+					"File": "motions/haru_g_m12.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+
+				{
+					"Name": "confused",
+					"File": "motions/haru_g_m14.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"Name": "disbelief",
+					"File": "motions/haru_g_m16.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"Name": "blushing_happy",
+					"File": "motions/haru_g_m18.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"Name": "blushing_shy",
+					"File": "motions/haru_g_m19.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"Name": "very_happy",
+					"File": "motions/haru_g_m21.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"Name": "happy",
+					"File": "motions/haru_g_m22.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"Name": "cute",
+					"File": "motions/haru_g_m23.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"Name": "disappointed",
+					"File": "motions/haru_g_m24.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+
+
+			],
+			"TapBody": [
+				{
+					"File": "motions/haru_g_m26.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5,
+					"Sound": "sounds/haru_talk_13.wav"
+				},
+				{
+					"File": "motions/haru_g_m06.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5,
+					"Sound": "sounds/haru_Info_14.wav"
+				},
+				{
+					"File": "motions/haru_g_m20.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5,
+					"Sound": "sounds/haru_normal_6.wav"
+				},
+				{
+					"File": "motions/haru_g_m09.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5,
+					"Sound": "sounds/haru_Info_04.wav"
+				}
+			]
+		},
+		"UserData": "Haru.userdata3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": "Head"
+		},
+		{
+			"Id": "HitArea2",
+			"Name": "Body"
+		}
+	]
+}

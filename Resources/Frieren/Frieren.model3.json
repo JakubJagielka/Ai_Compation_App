@@ -1,0 +1,63 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Frieren.moc3",
+		"Textures": [
+			"Frieren.8192/texture_00.png"
+		],
+		"Physics": "Frieren.physics3.json",
+		"DisplayInfo": "Frieren.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "akward",
+				"File": "expressions/mmy.exp3.json"
+			},
+			{
+				"Name": "shocked",
+				"File": "expressions/lks.exp3.json"
+			},
+			{
+				"Name": "evil",
+				"File": "expressions/anya.exp3.json"
+			},
+			{
+				"Name": "smile",
+				"File": "expressions/anya2.exp3.json"
+			},
+			{
+				"Name": "cute",
+				"File": "expressions/W.exp3.json"
+			}
+		],
+		"Motions": {
+			"Idle": [
+				{
+					"Name": "casual",
+					"File": "motions/daiji.motion3.json"
+				},
+				{
+					"Name": "love",
+					"File": "motions/zs1.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": []
+}

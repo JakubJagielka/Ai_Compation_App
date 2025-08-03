@@ -1,0 +1,9 @@
+{
+    "GEMINI_API_KEY": "",
+    "USERNAME": "",
+    "SPEAKING_LANGUAGE": "en",
+    "MODEL_NAME": "Hiyori",
+    "MICROPHONE_OFF": false,
+    "Live2D_MODE": false,
+    "VOICE_SENSITIVITY": 45
+}

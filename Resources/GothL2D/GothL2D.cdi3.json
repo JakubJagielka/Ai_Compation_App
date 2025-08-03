@@ -1,0 +1,193 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "Angle X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "Angle Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "Angle Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "EyeL Open"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "EyeR Open"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "Eyeball X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "Eyeball Y"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "BrowR Y"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "BrowR Form"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "Mouth Form"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "Mouth Open"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "Body X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "Body Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "Body Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "Breath"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "",
+			"Name": "Phys Zipper"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "PhysBangs"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "PhysFrontEar"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "",
+			"Name": "PhysBackEar"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "",
+			"Name": "PhysHairDangle"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "PhysHairAhoge"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "PhysFrontLeg"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "PhysBackLeg"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "PhysTail"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "",
+			"Name": "PhysTail2"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "",
+			"Name": "PhysBoobaX"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "",
+			"Name": "PhysBoobaY"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "Goth.psd"
+		},
+		{
+			"Id": "HeadDeformers",
+			"Name": "HeadDeformers"
+		},
+		{
+			"Id": "HeadParts",
+			"Name": "HeadParts"
+		},
+		{
+			"Id": "Main",
+			"Name": "Main"
+		},
+		{
+			"Id": "BodyDeformers",
+			"Name": "BodyDeformers"
+		},
+		{
+			"Id": "Head",
+			"Name": "Head"
+		},
+		{
+			"Id": "Main2",
+			"Name": "Main"
+		},
+		{
+			"Id": "Mouths",
+			"Name": "Mouths"
+		},
+		{
+			"Id": "Eye",
+			"Name": "Eye"
+		},
+		{
+			"Id": "Open",
+			"Name": "Open"
+		},
+		{
+			"Id": "Closed",
+			"Name": "Closed"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		]
+	]
+}
