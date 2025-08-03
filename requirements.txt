@@ -15,7 +15,6 @@ regex
 pyperclip
 faster-whisper
 silero-vad
-torchaudio
 openai-whisper
 transformers
 typing-extensions
